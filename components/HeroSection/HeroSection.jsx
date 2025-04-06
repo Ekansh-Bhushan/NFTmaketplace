@@ -41,7 +41,7 @@ const HeroSection = () => {
         <button className={Style.arrowRight} onClick={handleNext}>
           <FaArrowRight />
         </button>
-
+  
         {/* Content */}
         <div className={Style.heroContent}>
           <h1 className={Style.h1_druve}>Dive into the world of NFTs.</h1>
@@ -56,8 +56,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <div className={Style.heroBelowText}>
+        <span className={Style.typingText}>The most trusted NFT Marketplace by millions of users.</span>
+      </div>
     </div>
   );
+  
 };
+
+
 
 export default HeroSection;
